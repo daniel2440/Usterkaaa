@@ -1,0 +1,95 @@
+.result {
+
+    width: 100%;
+    min-height: 120px;
+    display: inline-flex;
+    margin-top: 15px;
+    height: auto;
+    text-align: center;
+}
+
+.result p {
+
+    display: inline-block;
+    vertical-align: top;
+    border-width: thin;
+    border-style: solid;
+    min-height: 10%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.zdj {
+    width: 7%;
+    margin-left: 2%;
+
+}
+
+.zdj img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.nazwa_firmy {
+    padding-top: 25px;
+    width: 13%;
+
+}
+
+.specjalizacje {
+    padding-top: 25px;
+    width: 20%;
+}
+
+.opis {
+    padding-top: 25px;
+    width: 25%;
+}
+
+.ocena {
+    width: 23%;
+    padding-top: 40px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.km {
+    padding-top: 25px;
+    width: 8%;
+
+}
+
+.zamow {
+    padding: 10px 5px;
+    width: 23%;
+    display: flex;
+    flex-direction: row;;
+}
+
+.zamow button {
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    padding: 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: dodgerblue;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.zamow button:focus {
+    outline: none;
+}
+
+.zamow button:hover {
+    background-color: lightskyblue;
+}
+
+.zamow button:active {
+    background-color: dodgerblue;
+}
